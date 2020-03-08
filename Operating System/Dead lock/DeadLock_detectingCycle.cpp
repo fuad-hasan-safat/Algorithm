@@ -1,4 +1,3 @@
-
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -41,7 +40,10 @@ void DFS(int u)
 int main()
 {
 
+    cout<<"Enter node & edge number : ";
     cin>>n>>e;
+
+    cout<<"Enter edges:\n";
     for(int i = 1; i<= e; i++)
     {
         int u,v;
