@@ -3,7 +3,6 @@ using namespace std;
 void printTheCycle();
 
 
-char arr[] = {'0','R','A','S','C','F','W','D','T','B','E','V','G','U'};
 int isRes[100];
 
 int node, edge,k, mainNode;
@@ -13,30 +12,6 @@ int cycle[100];
 int resource, process;
 
 
-/*
-
-void DFS2_killProcess(int u)
-{
-    color[u] = 1;
-    cycle[k++] = u;
-    for(int i = 0; i < V[u].size(); i++)
-    {
-        int v = V[u][i];
-        if(v == process)
-        {
-            V[u][i] = -1;
-            cycle[process] = -1;
-            cout<<"process "<<process<<" is killed\n";
-            printTheCycle();
-            return;
-        }
-        else if(color[v] == 0)
-        {
-            DFS2_killProcess(v);
-        }
-    }
-}
-*/
 
 void killAndRecovery()
 {
@@ -62,7 +37,7 @@ void killAndRecovery()
 
     for(int i = 0; i < k; i++)
         if(cycle[i] != process)
-            cout<<arr[cycle[i]]<<" ";
+            cout<<cycle[i]<<" ";
     cout<<"\n";
 
 }
@@ -70,7 +45,7 @@ void killAndRecovery()
 void printTheCycle()
 {
     for(int i = 0; i < k; i++)
-            cout<<arr[cycle[i]]<<" ";
+            cout<<cycle[i]<<" ";
     cout<<"\n";
 
     killAndRecovery();
@@ -150,4 +125,4 @@ int main()
 13 7 1 0
 */
 
-// 
+//
