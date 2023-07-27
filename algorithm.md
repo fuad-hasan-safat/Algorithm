@@ -25,6 +25,17 @@
     Step 3: PRINT ‘Sum of A & B =’, sum
     Step 4: STOP
    ```
+
+## অ্যালগরিদমের ধরণ
+বিভিন্ন ধরনের অ্যালগরিদম হয়ে থাকে, যেমনঃ
+1.  [Divide and conquer algorithm](https://www.includehelp.com/algorithms/divide-and-conquer-paradigm.aspx)
+2.  [Greedy algorithm](https://www.includehelp.com/algorithms/introduction-to-greedy-strategy-in-algorithms.aspx)
+3.  [Dynamic programming](https://www.includehelp.com/algorithms/dynamic-programming-components-applications-and-elements.aspx)
+4.  [Branch and bound algorithm](https://www.includehelp.com/algorithms/branch-and-bound.aspx)
+5.  [Back Tracking](https://www.includehelp.com/algorithms/backtracking-types-and-algorithms.aspx)
+6.  Simple Recursive algorithm
+7.  Randomized algorithm
+8.  Brute force algorithm
    
 
 
